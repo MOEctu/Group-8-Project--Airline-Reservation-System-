@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agent Sales Performances</title>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+        color: #fff;
+        text-transform: uppercase;
+    }
+    header {
+        background: rgba(0,0,0,0.7);
+        padding: 25px;
+        text-align: center;
+        font-size: 2rem;
+        letter-spacing: 3px;
+    }
+    nav {
+        background: rgba(0,0,0,0.5);
+        padding: 12px;
+        text-align: center;
+    }
+    nav a {
+        color: #fff;
+        margin: 0 15px;
+        text-decoration: none;
+        font-size: 0.95rem;
+    }
+    nav a:hover {
+        text-decoration: underline;
+    }
+    .container {
+        width: 90%;
+        max-width: 900px;
+        margin: 40px auto;
+        background: rgba(255,255,255,0.1);
+        padding: 25px;
+        border-radius: 10px;
+        backdrop-filter: blur(6px);
+    }
+    h2 {
+        margin-top: 0;
+        letter-spacing: 2px;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 25px;
+        text-transform: none;
+        background: rgba(0,0,0,0.3);
+    }
+    th, td {
+        padding: 12px;
+        border-bottom: 1px solid rgba(255,255,255,0.2);
+        text-align: left;
+        color: #fff;
+    }
+    th {
+        background: rgba(0,0,0,0.4);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    tr:hover {
+        background: rgba(255,255,255,0.1);
+    }
+    .summary-box {
+        margin-top: 30px;
+        background: rgba(0,0,0,0.35);
+        padding: 15px;
+        border-radius: 6px;
+        text-transform: none;
+        line-height: 1.6;
+    }
+    footer {
+        margin-top: 40px;
+        padding: 20px;
+        text-align: center;
+        background: rgba(0,0,0,0.4);
+        font-size: 0.85rem;
+    }
+</style>
+</head>
+
+<body>
+
+<header>AGENT SALES PERFORMANCES</header>
+
+<nav>
+    <a href="FLIGHT_SEARCH.html">Flight Search</a>
+    <a href="DEPARTURE.html">Departure</a>
+    <a href="BOOKED.html">Booked</a>
+    <a href="CHECKIN.html">Check‑In</a>
+    <a href="AGENT_SALES_PERFORMANCES.html">Agent Sales Performances</a>
+</nav>
+
+<div class="container">
+    <h2>Sales Performance Dashboard</h2>
+    <p style="text-transform:none;font-size:0.95rem;">
+        Review the performance metrics of airline ticketing agents, including total sales,
+        number of bookings, and revenue generated.
+    </p>
+
+    <table>
+        <tr>
+            <th>Agent Name</th>
+            <th>Total Bookings</th>
+            <th>Total Revenue</th>
+            <th>Region</th>
+            <th>Performance Rating</th>
+        </tr>
+        <tr>
+            <td>Maria Lopez</td>
+            <td>128</td>
+            <td>$92,450</td>
+            <td>West Coast</td>
+            <td>★★★★★</td>
+        </tr>
+        <tr>
+            <td>James Carter</td>
+            <td>104</td>
+            <td>$76,320</td>
+            <td>East Coast</td>
+            <td>★★★★☆</td>
+        </tr>
+        <tr>
+            <td>Sophia Martinez</td>
+            <td>89</td>
+            <td>$63,900</td>
+            <td>Midwest</td>
+            <td>★★★★☆</td>
+        </tr>
+        <tr>
+            <td>Daniel Kim</td>
+            <td>72</td>
+            <td>$54,210</td>
+            <td>Southwest</td>
+            <td>★★★☆☆</td>
+        </tr>
+        <tr>
+            <td>Olivia Chen</td>
+            <td>65</td>
+            <td>$48,880</td>
+            <td>Southeast</td>
+            <td>★★★☆☆</td>
+        </tr>
+    </table>
+
+    <div class="summary-box">
+        <strong>Total Agents:</strong> 5<br>
+        <strong>Total Bookings:</strong> 458<br>
+        <strong>Total Revenue:</strong> $335,760<br>
+        <strong>Top Performer:</strong> Maria Lopez (West Coast)
+    </div>
+</div>
+
+<footer>
+    © 2026 Airline Reservation System — Air Travel Company. All Rights Reserved.
+</footer>
+
+</body>
+</html>

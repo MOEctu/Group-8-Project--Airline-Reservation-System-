@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ADMIN VIEW</title>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+        color: #fff;
+        text-transform: uppercase;
+    }
+    header {
+        background: rgba(0,0,0,0.7);
+        padding: 25px;
+        text-align: center;
+        font-size: 2rem;
+        letter-spacing: 3px;
+    }
+    nav {
+        background: rgba(0,0,0,0.5);
+        padding: 12px;
+        text-align: center;
+    }
+    nav a {
+        color: #fff;
+        margin: 0 15px;
+        text-decoration: none;
+        font-size: 0.95rem;
+    }
+    nav a:hover {
+        text-decoration: underline;
+    }
+    .container {
+        width: 95%;
+        max-width: 1100px;
+        margin: 30px auto 40px;
+        display: grid;
+        grid-template-columns: 2fr 1.5fr;
+        gap: 20px;
+    }
+    .panel {
+        background: rgba(255,255,255,0.08);
+        padding: 20px;
+        border-radius: 10px;
+        backdrop-filter: blur(6px);
+        text-transform: none;
+    }
+    .panel h2 {
+        margin-top: 0;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 1.1rem;
+    }
+    .panel p {
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 15px;
+        font-size: 0.85rem;
+    }
+    th, td {
+        padding: 8px;
+        border-bottom: 1px solid rgba(255,255,255,0.2);
+        text-align: left;
+        color: #fff;
+    }
+    th {
+        background: rgba(0,0,0,0.4);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    tr:hover {
+        background: rgba(255,255,255,0.08);
+    }
+    .metrics {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .metric-box {
+        background: rgba(0,0,0,0.35);
+        padding: 10px;
+        border-radius: 6px;
+        text-align: center;
+        font-size: 0.85rem;
+    }
+    .metric-box strong {
+        display: block;
+        font-size: 1rem;
+        margin-bottom: 4px;
+    }
+    .actions button {
+        width: 100%;
+        padding: 10px;
+        margin-top: 8px;
+        background: #ff9800;
+        border: none;
+        border-radius: 5px;
+        font-size: 0.9rem;
+        cursor: pointer;
+        color: #000;
+        text-transform: uppercase;
+    }
+    .actions button:hover {
+        background: #ffb74d;
+    }
+    footer {
+        padding: 20px;
+        text-align: center;
+        background: rgba(0,0,0,0.4);
+        font-size: 0.85rem;
+    }
+</style>
+</head>
+
+<body>
+
+<header>ADMIN VIEW — AIRLINE RESERVATION SYSTEM</header>
+
+<nav>
+    <a href="FLIGHT_SEARCH.html">Flight Search</a>
+    <a href="DEPARTURE.html">Departure</a>
+    <a href="BOOKED.html">Booked</a>
+    <a href="CHECKIN.html">Check‑In</a>
+    <a href="AGENT_SALES_PERFORMANCES.html">Agent Sales Performances</a>
+    <a href="ADMIN_VIEW.html">Admin View</a>
+</nav>
+
+<div class="container">
+
+    <!-- LEFT COLUMN: SYSTEM OVERVIEW + RECENT BOOKINGS -->
+    <div class="panel">
+        <h2>System Overview</h2>
+        <div class="metrics">
+            <div class="metric-box">
+                <strong>1,248</strong>
+                Today’s Bookings
+            </div>
+            <div class="metric-box">
+                <strong>$412,560</strong>
+                Today’s Revenue
+            </div>
+            <div class="metric-box">
+                <strong>37</strong>
+                Active Flights
+            </div>
+            <div class="metric-box">
+                <strong>5</strong>
+                Delayed Flights
+            </div>
+        </div>
+
+        <h2 style="margin-top:25px;">Recent Bookings</h2>
+        <table>
+            <tr>
+                <th>Booking #</th>
+                <th>Passenger</th>
+                <th>Route</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td>BR78421</td>
+                <td>Maria Lopez</td>
+                <td>LAX → JFK</td>
+                <td>Checked‑In</td>
+            </tr>
+            <tr>
+                <td>BR78422</td>
+                <td>James Carter</td>
+                <td>ORD → MIA</td>
+                <td>Booked</td>
+            </tr>
+            <tr>
+                <td>BR78423</td>
+                <td>Sophia Martinez</td>
+                <td>DFW → SEA</td>
+                <td>Boarding</td>
+            </tr>
+            <tr>
+                <td>BR78424</td>
+                <td>Daniel Kim</td>
+                <td>ATL → BOS</td>
+                <td>Cancelled</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- RIGHT COLUMN: ADMIN ACTIONS + SYSTEM LOGS -->
+    <div class="panel">
+        <h2>Admin Actions</h2>
+        <p>Quick tools for managing flights, agents, and system operations.</p>
+
+        <div class="actions">
+            <button>View All Flights</button>
+            <button>Manage Agents</button>
+            <button>Review Cancellations</button>
+            <button>Export Daily Report</button>
+        </div>
+
+        <h2 style="margin-top:25px;">System Activity Log</h2>
+        <table>
+            <tr>
+                <th>Time</th>
+                <th>Event</th>
+            </tr>
+            <tr>
+                <td>09:12</td>
+                <td>New booking created (BR78424)</td>
+            </tr>
+            <tr>
+                <td>09:05</td>
+                <td>Agent Maria updated flight AR1234</td>
+            </tr>
+            <tr>
+                <td>08:47</td>
+                <td>System sync with payment gateway</td>
+            </tr>
+            <tr>
+                <td>08:30</td>
+                <td>Daily performance report generated</td>
+            </tr>
+        </table>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Airline Reservation System — Air Travel Company. All Rights Reserved.
+</footer>
+
+</body>
+</html>

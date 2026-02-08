@@ -1,0 +1,92 @@
+<!DOCTYPE html>   <html lang="en">   <head>
+<meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FLIGHT_SEARCH</title>
+<style>
+    body { margin:0; padding:0; font-family:Arial, sans-serif;
+        background:linear-gradient(135deg,#0f2027,#203a43,#2c5364); color:#fff; }
+    header { background:rgba(0,0,0,0.6); padding:25px; text-align:center;
+        font-size:2rem; letter-spacing:3px; text-transform:uppercase; }
+    nav { background:rgba(0,0,0,0.5); padding:12px; text-align:center; }
+    nav a { color:#fff; margin:0 15px; text-decoration:none; font-size:1rem; }
+    nav a:hover { text-decoration:underline; }
+    .container { width:90%; max-width:650px; margin:40px auto;
+        background:rgba(255,255,255,0.1); padding:25px; border-radius:10px; }
+    label { display:block; margin-top:15px; text-transform:uppercase; }
+    input { width:100%; padding:12px; border-radius:5px; border:none;
+        margin-top:5px; background:#fff; color:#000; }
+    button { width:100%; padding:12px; margin-top:25px; background:#ff9800;
+        border:none; border-radius:5px; font-size:1.1rem; cursor:pointer; }
+    button:hover { background:#ffb74d; }
+</style>    </head>
+<body>     <header>Flight Search</header>
+<nav>   <nav>   <a href="FLIGHT_SEARCH.html" style="color:#FF66CC;margin:0 15px;text-decoration:none;"><u>Flight Search</u></a>
+
+<a href="DEPARTURE.html" style="color:#fff;margin:0 15px;text-decoration:none;"><u>DEPARTURE</u></a>
+
+<a href="FLIGHT_INFORMATION.html" style="color:#fff;margin:0 15px;text-decoration:none;"><u>FLIGHT_INFORMATION</u></a>
+
+<a href="BOOKED.html" style="color:#fff;margin:0 15px;text-decoration:none;"><u>BOOKED</u></a>
+
+<a href="CHECK_IN.html" style="color:#fff;margin:0 15px;text-decoration:none;"><u>CHECK&#8209;IN</u></a>
+
+<a href="CHECK-IN_CONFIRMATION.html.html" style="color:#fff;margin:0 15px;text-decoration:none;"><u>CHECK-IN_CONFIRMATION</u></a>
+
+<a href="INDEX.html" style="color:#0000FF;margin:0 15px;text-decoration:none;"><u>About_Us</u></a>
+
+   </nav>
+   
+
+<div class="container">
+    <h2>Search Your Flight</h2>
+
+    <label>Passenger Name:</label>
+    <input type="text" placeholder="Enter your name">
+
+    <label>Departure Location:</label>
+    <input type="text" placeholder="Enter departure location">
+
+    <label>Travel Date:</label>
+    <input type="date">
+
+    <label>Destination:</label>
+    <input type="text" placeholder="Enter destination">
+
+    <label>Arrival Date:</label>
+    <input type="date">
+
+
+    <button>Search Flight</button>
+<a href="FLIGHT_INFORMATION.html" style="color:#0000FF;margin:0 15px;text-decoration:none;"> </a>    
+    
+</div>
+
+
+    <p>
+    This demo site showcases the core pages of a typical Airline Reservation workflow:
+        <b>Flight Search</b>, <B>Departure</B>, <b>Booked</b>, and this <b>About Us</b> page.
+    </p> <p>***Demo only. All data is simulated for educational purposes*.</p>
+
+
+
+<footer style="background-color:#FF99FF; padding:20px; text-align:center; font-family:Arial, sans-serif; font-size:14px;">
+  <div>
+    <strong>Follow us:</strong>
+    <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+    <a href="https://www.tiktok.com" target="_blank">TikTok</a> |
+    <a href="https://www.facebook.com" target="_blank">Facebook</a>
+  </div>
+
+  <div style="margin-top:8px;">
+    <strong>Contact:</strong><br>
+    777 Airline Reservation System ROAD, GROUP#8 City, CO, 888888<br>
+    <a href="mailto:HELPDESK@airlinereservationsystemgroup8.net">
+      HELPDESK@airlinereservationsystemgroup8.net
+    </a><br>
+    <a href="tel:+12035701624">(203) 570-1624</a>
+  </div>
+</footer>
+<footer>  © 2026 Airline Reservation System  All Rights Reserved. </footer>
+
+</body> 
+
+</html>

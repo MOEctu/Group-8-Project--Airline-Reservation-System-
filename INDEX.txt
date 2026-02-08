@@ -1,0 +1,120 @@
+<!DOCTYPE html>   <html lang="en">
+<head>  <meta charset="UTF-8">  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>INDEX</title>   
+<style>
+    body {
+        margin: 0;
+        paddin  g: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #141e30, #243b55);
+        color: #fff;
+        text-transform: uppercase;
+    }
+    header {
+        background: rgba(0,0,0,0.7);
+        padding: 20px;
+        text-align: center;
+        font-size: 2rem;
+        letter-spacing: 3px;
+    }
+    nav {
+        background: rgba(0,0,0,0.6);
+        padding: 10px;
+        text-align: center;
+    }
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 0.9rem;
+    }
+    nav a:hover {
+        text-decoration: underline;
+    }
+    .container {
+        width: 90%;
+        max-width: 650px;
+        margin: 40px auto;
+        background: rgba(255,255,255,0.1);
+        padding: 25px;
+        border-radius: 10px;
+        backdrop-filter: blur(6px);
+        text-align: left;
+    }
+    h2 {
+        margin-top: 0;
+    }
+    p {
+        text-transform: none;
+        line-height: 1.6;
+    }
+</style>  </head>   <body>
+            <header>Airline Reservation System-<b> <u>About Us </u> </b></header>
+
+<nav>   <a href="FLIGHT_SEARCH.html" style="color:#FF66CC;margin:0 15px;text-decoration:none;"><u>Flight Search</u></a>
+
+<a href="DEPARTURE.html" style="color:#fff;margin:0 15px;text-decoration:none;"><u>DEPARTURE</u></a>
+
+<a href="FLIGHT_INFORMATION.html" style="color:#fff;margin:0 15px;text-decoration:none;"><u>FLIGHT_INFORMATION</u></a>
+
+<a href="BOOKED.html" style="color:#fff;margin:0 15px;text-decoration:none;"><u>BOOKED</u></a>
+
+<a href="CHECK_IN.html" style="color:#fff;margin:0 15px;text-decoration:none;"><u>CHECK&#8209;IN</u></a>
+
+<a href="CHECK-IN_CONFIRMATION.html.html" style="color:#fff;margin:0 15px;text-decoration:none;"><u>CHECK-IN_CONFIRMATION</u></a>
+
+<a href="INDEX.html" style="color:#0000FF;margin:0 15px;text-decoration:none;"><u>About_Us</u></a>
+
+   </nav>
+   
+           <div class="container"> 
+ <h4>welcome to our 'computer science team project ii: cs492-2601b-02'- group#8 project: "airline reservation system" <i> taught by prof. dr. shafqat shad at c.t.u.</i></h4> <h3>our project title: <u> airline reservation system-group 8 </u></h3>  
+ 
+ 
+ <section> <h3>Our Group 8 Project Roles:</h3> <p>
+     
+     <strong>Our Scrum Master: </strong> 
+ Sharon Baldwin oversees <u> Sprint planning </u>and backlog prioritization, ensuring alignment with project goals.</p> 
+ 
+ <p><strong>Our Product Owners:</strong>
+ Juvie Marquez / Mauricio Munoz-Ortiz </p> 
+ 
+ <p><strong>And our Development Team:</strong>
+ is our <i>'Group 8-Computer Science Team'. </i> </p> </section>
+ 
+ 
+ <section> <h3> <c>System Description </c> </h3> <p> Our <u>Airline Reservation System </u> is designed to provide a simple, intuitive way to  <i>Search, Schedule, and confirm Flights </i> for travelers around the world. </p> </section>
+    <p> 
+        From <i>flight Search</i> to <i>departure </i> details and <i>booking </i> confirmation, our goal is to deliver
+        a seamless 'Air Travel Experience' with clear information and modern design.
+    </p>
+    
+    
+    <p>
+    This demo site showcases the core pages of a typical Airline Reservation workflow:
+        <b>Flight Search</b>, <B></B>Departure</B>, <b>Booked</b>, and this <b>About Us</b> page.
+    </p> <p><c>***Demo only. All data is simulated for educational purposes*.</c></p>   </div>
+
+
+
+<footer style="background-color:#FF99FF; padding:20px; text-align:center; font-family:Arial, sans-serif; font-size:14px;">
+  <div>
+    <strong> Follow us:</strong>
+    <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+    <a href="https://www.tiktok.com" target="_blank">TikTok</a> |
+    <a href="https://www.facebook.com" target="_blank">Facebook</a>
+  </div>
+
+  <div style="margin-top:8px;">
+    <strong>Contact:</strong><br>
+    777 Airline Reservation System ROAD, GROUP#8 City, CO, 888888<br>
+    <a href="mailto:HELPDESK@airlinereservationsystemgroup8.net">
+      HELPDESK@airlinereservationsystemgroup8.net
+    </a><br>
+    <a href="tel:+12035701624">(203) 570-1624</a>
+  </div>
+</footer>
+<footer>      © 2026 Airline Reservation System — All Rights Reserved.  </footer>
+</body>  
+
+</html>

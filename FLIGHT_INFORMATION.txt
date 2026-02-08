@@ -1,0 +1,148 @@
+<!DOCTYPE html>  <html lang="en">   <head>
+<meta charset="UTF-8">   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FLIGHT_INFORMATION</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+        color: #fff;
+        text-transform: uppercase;
+    }
+    header {
+        background: rgba(0,0,0,0.7);
+        padding: 25px;
+        text-align: center;
+        font-size: 2rem;
+        letter-spacing: 3px;
+    }
+    nav {
+        background: rgba(0,0,0,0.5);
+        padding: 12px;
+        text-align: center;
+    }
+    nav a {
+        color: #fff;
+        margin: 0 15px;
+        text-decoration: none;
+        font-size: 0.95rem;
+    }
+    nav a:hover {
+        text-decoration: underline;
+    }
+    .container {
+        width: 90%;
+        max-width: 800px;
+        margin: 40px auto;
+        background: rgba(255,255,255,0.1);
+        padding: 25px;
+        border-radius: 10px;
+        backdrop-filter: blur(6px);
+    }
+    h2 {
+        margin-top: 0;
+        letter-spacing: 2px;
+    }
+    .info-box {
+        background: rgba(0,0,0,0.3);
+        padding: 15px;
+        border-radius: 6px;
+        margin-top: 20px;
+        text-transform: none;
+        line-height: 1.6;
+    }
+    button {
+        margin-top: 25px;
+        width: 100%;
+        padding: 12px;
+        background: #ff9800;
+        border: none;
+        border-radius: 5px;
+        font-size: 1.1rem;
+        cursor: pointer;
+        color: #000;
+    }
+    button:hover {
+        background: #ffb74d;
+    }
+    footer {
+        margin-top: 40px;
+        padding: 20px;
+        text-align: center;
+        background: rgba(0,0,0,0.4);
+        font-size: 0.85rem;
+    }
+</style>    </head>
+<body>                  <header>"FLIGHT INFORMATION"</header>
+
+<nav>   <a href="FLIGHT_SEARCH.html" style="color:#FF66CC;margin:0 15px;text-decoration:none;"><u>Flight Search</u></a>
+
+<a href="DEPARTURE.html" style="color:#fff;margin:0 15px;text-decoration:none;"><u>DEPARTURE</u></a>
+
+<a href="FLIGHT_INFORMATION.html" style="color:#fff;margin:0 15px;text-decoration:none;"><u>FLIGHT_INFORMATION</u></a>
+
+<a href="BOOKED.html" style="color:#fff;margin:0 15px;text-decoration:none;"><u>BOOKED</u></a>
+
+<a href="CHECK_IN.html" style="color:#fff;margin:0 15px;text-decoration:none;"><u>CHECK&#8209;IN</u></a>
+
+<a href="CHECK-IN_CONFIRMATION.html" style="color:#fff;margin:0 15px;text-decoration:none;"><u>CHECK-IN_CONFIRMATION</u></a>
+
+<a href="INDEX.html" style="color:#0000FF;margin:0 15px;text-decoration:none;"><u>About_Us</u></a>
+
+   </nav>
+
+
+<div class="container">
+    <h2>Your Flight Details</h2>
+
+    <div class="info-box">
+        <strong>Passenger Name:</strong> [Name]<br>
+        <strong>Departure:</strong> [Departure Location]<br>
+        <strong>Destination:</strong> [Destination]<br>
+        <strong>Travel Date:</strong> [Travel Date]<br>
+        <strong>Arrival Date:</strong> [Arrival Date]
+    </div>
+
+    <h2>Available Flights</h2>
+
+    <div class="info-box">
+        <p><strong>Flight AR1234</strong> — 10:30 AM — On Time</p>
+        <p><strong>Flight AR5678</strong> — 2:15 PM — Boarding Soon</p>
+        <p><strong>Flight AR9012</strong> — 6:45 PM — Delayed</p>
+    </div>
+
+
+    <button onclick="window.location.href='DEPARTURE.html'">
+        Proceed to Departure Details
+    </button>
+</div>
+
+
+
+
+<footer style="background-color:#FF99FF; padding:20px; text-align:center; font-family:Arial, sans-serif; font-size:14px;">
+  <div>
+    <strong>Follow us:</strong>
+    <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+    <a href="https://www.tiktok.com" target="_blank">TikTok</a> |
+    <a href="https://www.facebook.com" target="_blank">Facebook</a>
+  </div>
+
+  <div style="margin-top:8px;">
+    <strong>Contact:</strong><br>
+    777 Airline Reservation System ROAD, GROUP#8 City, CO, 888888<br>
+    <a href="mailto:HELPDESK@airlinereservationsystemgroup8.net">
+      HELPDESK@airlinereservationsystemgroup8.net
+    </a><br>
+    <a href="tel:+12035701624">(203) 570-1624</a>
+  </div>
+</footer>
+
+
+
+  
+<footer> © 2026 Airline Reservation System — All Rights Reserved.
+</footer>
+</body>
+</html>
